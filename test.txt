@@ -1,0 +1,12 @@
+桌面GitHub操作
+将git bush 定位到E:\GitHub
+之后输入：git clone+建成库之后的网址（例如：https://github.com/imwanghx/text）
+进入E:\GitHub会发现生成一个和库（text）同名的文件夹
+打开文件夹，创建test.txt
+把git定位在文件夹（test），然后ls：查看文件夹（test）
+输入：git add test.txt
+输入：git commit -m "whx"  "whx"引号内的内容可以改动，是一个备注
+输入：git push origin master
+
+
+参考链接：https://blog.csdn.net/qq_37512323/article/details/80693445
